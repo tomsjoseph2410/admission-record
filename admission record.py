@@ -1,11 +1,13 @@
+#code created by : Toms Joseph
 import pandas as pd
-from operator import itemgetter, le
 print("STUDENT RECORDS")
+print("\n")
 record_list = []
 
 n = int(input("enter the number of students:            "))
 
 for _ in range(n):
+    print("\n")
     name = input("Enter the Name of the Student:           ")
     roll_no = int(input("Enter the Roll Number of the Student:    "))
 
@@ -72,7 +74,7 @@ if question == "y":
 
 question_delete = input("Do you want to delete any data y/n : ")
 if question_delete == "y":
-    delete_number = int(input("Enter the Roll Number You want to delete "))
+    delete_number = int(input("Enter the Roll Number You want to delete: "))
     for dicti in record_list:
         if (dicti["roll_no"] == delete_number):
             record_list.remove(dicti)
