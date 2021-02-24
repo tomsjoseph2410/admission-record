@@ -1,4 +1,3 @@
-#admission_record
 Project Name: BugsMirror Internship Test Question
 
 
